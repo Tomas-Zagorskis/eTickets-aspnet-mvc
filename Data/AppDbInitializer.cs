@@ -1,5 +1,4 @@
-﻿using eTickets.Data.Enum;
-using eTickets.Models;
+﻿using eTickets.Models;
 
 namespace eTickets.Data {
     public class AppDbInitializer {
