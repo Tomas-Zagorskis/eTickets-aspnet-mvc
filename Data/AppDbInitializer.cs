@@ -340,8 +340,8 @@ namespace eTickets.Data {
 
 			string appUserEmail = "user@etickets.com";
 
-			var appUser = await userManager.FindByEmailAsync(adminUserEmail);
-			if (adminUser == null) {
+			var appUser = await userManager.FindByEmailAsync(appUserEmail);
+			if (appUser == null) {
 				var newAppUser = new ApplicationUser()
 				{
 					FullName = "Application User",
