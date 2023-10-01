@@ -1,5 +1,7 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,11 +10,8 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(0deg, rgba(112, 255, 212, 0.1) 5%, rgba(244, 255, 158, 0.1) 26%, rgba(241, 185, 255, 0.1) 50%, rgba(156, 210, 255, 0.1) 73%, rgba(255, 227, 154, 0.1) 95%);
+    background-size:cover;
 }
